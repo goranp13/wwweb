@@ -11,4 +11,5 @@ console.log(document.captureEvents)
 document.body.innerHTML = "<h1>hey dom</h1>";
 
 //window.alert("hey dom");
+//dsassda
 console.log(console);
