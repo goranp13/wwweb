@@ -4,12 +4,6 @@ console.log(document.lastModified);
 
 console.log(document.defaultView === window);
 console.log(document.title);
-
+console.log("bla 1");
 console.log(document.body);
-console.log(document.captureEvents)
-
-document.body.innerHTML = "<h1>hey dom</h1>";
-
-//window.alert("hey dom");
-//dsassda
-console.log(console);
+console.log(document.location);
