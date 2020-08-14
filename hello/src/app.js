@@ -1,9 +1,6 @@
-console.log(window.document === document);
-console.log(window === self);
-console.log(document.lastModified);
+let divs = document.getElementsByTagName("div");
+let div = divs.item(0);
+let childNodes = div.childNodes; 
+let textNode = childNodes.item(0);
+console.log(textNode.getTextContent);
 
-console.log(document.defaultView === window);
-console.log(document.title);
-console.log("bla 1");
-console.log(document.body);
-console.log(document.location);
